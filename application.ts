@@ -12,7 +12,7 @@ export class Application<S extends object = { [key: string]: any }> {
      */
     private _middleware: Middleware[] = []
     /**
-     * 将状态传递给前端视图的对象。 这可以通过在创建新应用程序时提供通用状态参数来键入。
+     * 将状态传递给前端视图的对象。 这可以通过在创建新应用程序时提供通用状态参数来传入。
      *
      * @example
      * const app = new Application<{foo: string}>();
